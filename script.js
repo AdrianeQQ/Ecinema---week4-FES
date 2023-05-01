@@ -62,7 +62,7 @@ const search = async () => {
       </div>`;
     return;
   }
-  console.log(data.Search.slice(0, 6));
+  // console.log(data.Search.slice(0, 6));
   filmsContainer.innerHTML = data.Search.slice(0, 6)
     .map(
       (film) => `
